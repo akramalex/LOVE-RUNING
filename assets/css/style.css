@@ -1,5 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 /* asterisk wildcard selector to override default style add by browers*/
 * {
     padding: 0;
@@ -17,8 +18,8 @@ body {
     /* generic project styles*/
 
     color: #3a3a3a;
-    font-family:'lato',sans-serif;
-    
+    font-family: 'lato', sans-serif;
+
 
 
 }
@@ -27,10 +28,16 @@ body {
 /* header*/
 
 header {
-    background-color: lightcoral;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 2px 2px #3a3a3a;
+    width: 100%
 }
+
 h1 {
-    font-family:'oswald',sans-serif;
+    font-family: 'oswald', sans-serif;
 }
 
 /*main content*/
