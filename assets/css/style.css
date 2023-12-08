@@ -189,6 +189,17 @@ hr {
     color: #fafafa;
 }
 
+/* galerry page style */
+
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 #cover-text {
     /* rgba to so it is semi--transparent*/
     background-color: rgba(241, 109, 107, .7);
