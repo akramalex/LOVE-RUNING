@@ -233,6 +233,14 @@ hr {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/*  sign up set up and form as well */
+#signup {
+    margin-top: 30px;
+}
+
+
+
+
 /*footer*/
 #social-networks {
     text-align: center;
